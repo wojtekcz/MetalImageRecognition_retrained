@@ -197,8 +197,6 @@
 		2E4D17DB1D07DAF200A2ABA5 /* weights_mixed_tower_2_conv.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2E4D171F1D07DAF200A2ABA5 /* weights_mixed_tower_2_conv.dat */; };
 		2E4D17DC1D07DAF200A2ABA5 /* weights_mixed_tower_conv_1.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2E4D17201D07DAF200A2ABA5 /* weights_mixed_tower_conv_1.dat */; };
 		2E4D17DD1D07DAF200A2ABA5 /* weights_mixed_tower_conv.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2E4D17211D07DAF200A2ABA5 /* weights_mixed_tower_conv.dat */; };
-		2E4D17E01D07FAC400A2ABA5 /* bias_softmax.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2E4D17DE1D07FAC400A2ABA5 /* bias_softmax.dat */; };
-		2E4D17E11D07FAC400A2ABA5 /* weights_softmax.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2E4D17DF1D07FAC400A2ABA5 /* weights_softmax.dat */; };
 		2E81118D1CF927F500D4025C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81118C1CF927F500D4025C /* AppDelegate.swift */; };
 		2E81118F1CF927F500D4025C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E81118E1CF927F500D4025C /* ViewController.swift */; };
 		2E8111921CF927F500D4025C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8111901CF927F500D4025C /* Main.storyboard */; };
@@ -213,6 +211,8 @@
 		2EF3DAD91D0B616F002B26DD /* final5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3DAD11D0B616F002B26DD /* final5.jpg */; };
 		2EF3DADA1D0B616F002B26DD /* final6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3DAD21D0B616F002B26DD /* final6.jpg */; };
 		2EF3DADB1D0B616F002B26DD /* final7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF3DAD31D0B616F002B26DD /* final7.jpg */; };
+		32FE34751E61699400E31A91 /* bias_final_training_ops.dat in Resources */ = {isa = PBXBuildFile; fileRef = 32FE34741E61699400E31A91 /* bias_final_training_ops.dat */; };
+		32FE34771E6169B000E31A91 /* weights_final_training_ops.dat in Resources */ = {isa = PBXBuildFile; fileRef = 32FE34761E6169B000E31A91 /* weights_final_training_ops.dat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -308,7 +308,7 @@
 		2E4D16BD1D07DAF200A2ABA5 /* bias_mixed_conv.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bias_mixed_conv.dat; path = network_params/batch_normalized_binaries/bias_mixed_conv.dat; sourceTree = "<group>"; };
 		2E4D16BE1D07DAF200A2ABA5 /* bias_mixed_tower_1_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = bias_mixed_tower_1_conv_1.dat; path = network_params/batch_normalized_binaries/bias_mixed_tower_1_conv_1.dat; sourceTree = "<group>"; };
 		2E4D16BF1D07DAF200A2ABA5 /* bias_mixed_tower_1_conv_2.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bias_mixed_tower_1_conv_2.dat; path = network_params/batch_normalized_binaries/bias_mixed_tower_1_conv_2.dat; sourceTree = "<group>"; };
-		2E4D16C01D07DAF200A2ABA5 /* bias_mixed_tower_1_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = bias_mixed_tower_1_conv.dat; path = network_params/batch_normalized_binaries/bias_mixed_tower_1_conv.dat; sourceTree = "<group>"; };
+		2E4D16C01D07DAF200A2ABA5 /* bias_mixed_tower_1_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = bias_mixed_tower_1_conv.dat; path = network_params/batch_normalized_binaries/bias_mixed_tower_1_conv.dat; sourceTree = "<group>"; };
 		2E4D16C11D07DAF200A2ABA5 /* bias_mixed_tower_2_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = bias_mixed_tower_2_conv.dat; path = network_params/batch_normalized_binaries/bias_mixed_tower_2_conv.dat; sourceTree = "<group>"; };
 		2E4D16C21D07DAF200A2ABA5 /* bias_mixed_tower_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = bias_mixed_tower_conv_1.dat; path = network_params/batch_normalized_binaries/bias_mixed_tower_conv_1.dat; sourceTree = "<group>"; };
 		2E4D16C31D07DAF200A2ABA5 /* bias_mixed_tower_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = bias_mixed_tower_conv.dat; path = network_params/batch_normalized_binaries/bias_mixed_tower_conv.dat; sourceTree = "<group>"; };
@@ -341,7 +341,7 @@
 		2E4D16DE1D07DAF200A2ABA5 /* weights_mixed_4_tower_1_conv_3.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_4_tower_1_conv_3.dat; path = network_params/batch_normalized_binaries/weights_mixed_4_tower_1_conv_3.dat; sourceTree = "<group>"; };
 		2E4D16DF1D07DAF200A2ABA5 /* weights_mixed_4_tower_1_conv_4.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_4_tower_1_conv_4.dat; path = network_params/batch_normalized_binaries/weights_mixed_4_tower_1_conv_4.dat; sourceTree = "<group>"; };
 		2E4D16E01D07DAF200A2ABA5 /* weights_mixed_4_tower_1_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_4_tower_1_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_4_tower_1_conv.dat; sourceTree = "<group>"; };
-		2E4D16E11D07DAF200A2ABA5 /* weights_mixed_4_tower_2_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_4_tower_2_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_4_tower_2_conv.dat; sourceTree = "<group>"; };
+		2E4D16E11D07DAF200A2ABA5 /* weights_mixed_4_tower_2_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = weights_mixed_4_tower_2_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_4_tower_2_conv.dat; sourceTree = "<group>"; };
 		2E4D16E21D07DAF200A2ABA5 /* weights_mixed_4_tower_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_4_tower_conv_1.dat; path = network_params/batch_normalized_binaries/weights_mixed_4_tower_conv_1.dat; sourceTree = "<group>"; };
 		2E4D16E31D07DAF200A2ABA5 /* weights_mixed_4_tower_conv_2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_4_tower_conv_2.dat; path = network_params/batch_normalized_binaries/weights_mixed_4_tower_conv_2.dat; sourceTree = "<group>"; };
 		2E4D16E41D07DAF200A2ABA5 /* weights_mixed_4_tower_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_4_tower_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_4_tower_conv.dat; sourceTree = "<group>"; };
@@ -351,7 +351,7 @@
 		2E4D16E81D07DAF200A2ABA5 /* weights_mixed_5_tower_1_conv_3.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_5_tower_1_conv_3.dat; path = network_params/batch_normalized_binaries/weights_mixed_5_tower_1_conv_3.dat; sourceTree = "<group>"; };
 		2E4D16E91D07DAF200A2ABA5 /* weights_mixed_5_tower_1_conv_4.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_5_tower_1_conv_4.dat; path = network_params/batch_normalized_binaries/weights_mixed_5_tower_1_conv_4.dat; sourceTree = "<group>"; };
 		2E4D16EA1D07DAF200A2ABA5 /* weights_mixed_5_tower_1_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_5_tower_1_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_5_tower_1_conv.dat; sourceTree = "<group>"; };
-		2E4D16EB1D07DAF200A2ABA5 /* weights_mixed_5_tower_2_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_5_tower_2_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_5_tower_2_conv.dat; sourceTree = "<group>"; };
+		2E4D16EB1D07DAF200A2ABA5 /* weights_mixed_5_tower_2_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = weights_mixed_5_tower_2_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_5_tower_2_conv.dat; sourceTree = "<group>"; };
 		2E4D16EC1D07DAF200A2ABA5 /* weights_mixed_5_tower_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_5_tower_conv_1.dat; path = network_params/batch_normalized_binaries/weights_mixed_5_tower_conv_1.dat; sourceTree = "<group>"; };
 		2E4D16ED1D07DAF200A2ABA5 /* weights_mixed_5_tower_conv_2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_5_tower_conv_2.dat; path = network_params/batch_normalized_binaries/weights_mixed_5_tower_conv_2.dat; sourceTree = "<group>"; };
 		2E4D16EE1D07DAF200A2ABA5 /* weights_mixed_5_tower_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_5_tower_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_5_tower_conv.dat; sourceTree = "<group>"; };
@@ -365,13 +365,13 @@
 		2E4D16F61D07DAF200A2ABA5 /* weights_mixed_6_tower_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_6_tower_conv_1.dat; path = network_params/batch_normalized_binaries/weights_mixed_6_tower_conv_1.dat; sourceTree = "<group>"; };
 		2E4D16F71D07DAF200A2ABA5 /* weights_mixed_6_tower_conv_2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_6_tower_conv_2.dat; path = network_params/batch_normalized_binaries/weights_mixed_6_tower_conv_2.dat; sourceTree = "<group>"; };
 		2E4D16F81D07DAF200A2ABA5 /* weights_mixed_6_tower_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_6_tower_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_6_tower_conv.dat; sourceTree = "<group>"; };
-		2E4D16F91D07DAF200A2ABA5 /* weights_mixed_7_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_7_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_conv.dat; sourceTree = "<group>"; };
+		2E4D16F91D07DAF200A2ABA5 /* weights_mixed_7_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = weights_mixed_7_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_conv.dat; sourceTree = "<group>"; };
 		2E4D16FA1D07DAF200A2ABA5 /* weights_mixed_7_tower_1_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_7_tower_1_conv_1.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_tower_1_conv_1.dat; sourceTree = "<group>"; };
 		2E4D16FB1D07DAF200A2ABA5 /* weights_mixed_7_tower_1_conv_2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_7_tower_1_conv_2.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_tower_1_conv_2.dat; sourceTree = "<group>"; };
 		2E4D16FC1D07DAF200A2ABA5 /* weights_mixed_7_tower_1_conv_3.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_7_tower_1_conv_3.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_tower_1_conv_3.dat; sourceTree = "<group>"; };
 		2E4D16FD1D07DAF200A2ABA5 /* weights_mixed_7_tower_1_conv_4.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_7_tower_1_conv_4.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_tower_1_conv_4.dat; sourceTree = "<group>"; };
 		2E4D16FE1D07DAF200A2ABA5 /* weights_mixed_7_tower_1_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_7_tower_1_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_tower_1_conv.dat; sourceTree = "<group>"; };
-		2E4D16FF1D07DAF200A2ABA5 /* weights_mixed_7_tower_2_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_7_tower_2_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_tower_2_conv.dat; sourceTree = "<group>"; };
+		2E4D16FF1D07DAF200A2ABA5 /* weights_mixed_7_tower_2_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = weights_mixed_7_tower_2_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_tower_2_conv.dat; sourceTree = "<group>"; };
 		2E4D17001D07DAF200A2ABA5 /* weights_mixed_7_tower_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_7_tower_conv_1.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_tower_conv_1.dat; sourceTree = "<group>"; };
 		2E4D17011D07DAF200A2ABA5 /* weights_mixed_7_tower_conv_2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_7_tower_conv_2.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_tower_conv_2.dat; sourceTree = "<group>"; };
 		2E4D17021D07DAF200A2ABA5 /* weights_mixed_7_tower_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_7_tower_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_7_tower_conv.dat; sourceTree = "<group>"; };
@@ -400,14 +400,12 @@
 		2E4D17191D07DAF200A2ABA5 /* weights_mixed_10_tower_mixed_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_10_tower_mixed_conv_1.dat; path = network_params/batch_normalized_binaries/weights_mixed_10_tower_mixed_conv_1.dat; sourceTree = "<group>"; };
 		2E4D171A1D07DAF200A2ABA5 /* weights_mixed_10_tower_mixed_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_10_tower_mixed_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_10_tower_mixed_conv.dat; sourceTree = "<group>"; };
 		2E4D171B1D07DAF200A2ABA5 /* weights_mixed_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_conv.dat; sourceTree = "<group>"; };
-		2E4D171C1D07DAF200A2ABA5 /* weights_mixed_tower_1_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_tower_1_conv_1.dat; path = network_params/batch_normalized_binaries/weights_mixed_tower_1_conv_1.dat; sourceTree = "<group>"; };
+		2E4D171C1D07DAF200A2ABA5 /* weights_mixed_tower_1_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = weights_mixed_tower_1_conv_1.dat; path = network_params/batch_normalized_binaries/weights_mixed_tower_1_conv_1.dat; sourceTree = "<group>"; };
 		2E4D171D1D07DAF200A2ABA5 /* weights_mixed_tower_1_conv_2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_tower_1_conv_2.dat; path = network_params/batch_normalized_binaries/weights_mixed_tower_1_conv_2.dat; sourceTree = "<group>"; };
 		2E4D171E1D07DAF200A2ABA5 /* weights_mixed_tower_1_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_tower_1_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_tower_1_conv.dat; sourceTree = "<group>"; };
 		2E4D171F1D07DAF200A2ABA5 /* weights_mixed_tower_2_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_tower_2_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_tower_2_conv.dat; sourceTree = "<group>"; };
-		2E4D17201D07DAF200A2ABA5 /* weights_mixed_tower_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_tower_conv_1.dat; path = network_params/batch_normalized_binaries/weights_mixed_tower_conv_1.dat; sourceTree = "<group>"; };
+		2E4D17201D07DAF200A2ABA5 /* weights_mixed_tower_conv_1.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = weights_mixed_tower_conv_1.dat; path = network_params/batch_normalized_binaries/weights_mixed_tower_conv_1.dat; sourceTree = "<group>"; };
 		2E4D17211D07DAF200A2ABA5 /* weights_mixed_tower_conv.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_mixed_tower_conv.dat; path = network_params/batch_normalized_binaries/weights_mixed_tower_conv.dat; sourceTree = "<group>"; };
-		2E4D17DE1D07FAC400A2ABA5 /* bias_softmax.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = bias_softmax.dat; path = network_params/batch_normalized_binaries/bias_softmax.dat; sourceTree = "<group>"; };
-		2E4D17DF1D07FAC400A2ABA5 /* weights_softmax.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_softmax.dat; path = network_params/batch_normalized_binaries/weights_softmax.dat; sourceTree = "<group>"; };
 		2E8111891CF927F500D4025C /* Image Recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E81118C1CF927F500D4025C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E81118E1CF927F500D4025C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -424,6 +422,8 @@
 		2EF3DAD11D0B616F002B26DD /* final5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = final5.jpg; path = Images/final5.jpg; sourceTree = "<group>"; };
 		2EF3DAD21D0B616F002B26DD /* final6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = final6.jpg; path = Images/final6.jpg; sourceTree = "<group>"; };
 		2EF3DAD31D0B616F002B26DD /* final7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = final7.jpg; path = Images/final7.jpg; sourceTree = "<group>"; };
+		32FE34741E61699400E31A91 /* bias_final_training_ops.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = bias_final_training_ops.dat; path = network_params/batch_normalized_binaries/bias_final_training_ops.dat; sourceTree = "<group>"; };
+		32FE34761E6169B000E31A91 /* weights_final_training_ops.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = weights_final_training_ops.dat; path = network_params/batch_normalized_binaries/weights_final_training_ops.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,8 +451,8 @@
 				2E4D16661D07DAF200A2ABA5 /* bias_conv_1.dat */,
 				2E4D16671D07DAF200A2ABA5 /* bias_conv_2.dat */,
 				2E4D16681D07DAF200A2ABA5 /* bias_conv_3.dat */,
-				2E4D17DE1D07FAC400A2ABA5 /* bias_softmax.dat */,
-				2E4D17DF1D07FAC400A2ABA5 /* weights_softmax.dat */,
+				32FE34741E61699400E31A91 /* bias_final_training_ops.dat */,
+				32FE34761E6169B000E31A91 /* weights_final_training_ops.dat */,
 				2E4D16691D07DAF200A2ABA5 /* bias_conv_4.dat */,
 				2E4D166A1D07DAF200A2ABA5 /* bias_conv.dat */,
 				2E4D166B1D07DAF200A2ABA5 /* bias_mixed_1_conv.dat */,
@@ -751,6 +751,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FE34771E6169B000E31A91 /* weights_final_training_ops.dat in Resources */,
 				2E4D17CB1D07DAF200A2ABA5 /* weights_mixed_9_tower_conv.dat in Resources */,
 				2E4D176A1D07DAF200A2ABA5 /* bias_mixed_9_tower_1_mixed_conv_1.dat in Resources */,
 				2E4D174B1D07DAF200A2ABA5 /* bias_mixed_5_tower_conv_2.dat in Resources */,
@@ -825,7 +826,6 @@
 				2E4D17691D07DAF200A2ABA5 /* bias_mixed_9_tower_1_conv.dat in Resources */,
 				2E4D172C1D07DAF200A2ABA5 /* bias_mixed_1_tower_conv_1.dat in Resources */,
 				2E4D17521D07DAF200A2ABA5 /* bias_mixed_6_tower_1_conv.dat in Resources */,
-				2E4D17E11D07FAC400A2ABA5 /* weights_softmax.dat in Resources */,
 				2E4D17701D07DAF200A2ABA5 /* bias_mixed_10_conv.dat in Resources */,
 				2E4D17491D07DAF200A2ABA5 /* bias_mixed_5_tower_2_conv.dat in Resources */,
 				2E4D173E1D07DAF200A2ABA5 /* bias_mixed_4_tower_1_conv.dat in Resources */,
@@ -933,7 +933,6 @@
 				2E4D17971D07DAF200A2ABA5 /* weights_mixed_4_conv.dat in Resources */,
 				2E4D17B61D07DAF200A2ABA5 /* weights_mixed_7_tower_1_conv_1.dat in Resources */,
 				2E4D17C71D07DAF200A2ABA5 /* weights_mixed_9_tower_1_conv.dat in Resources */,
-				2E4D17E01D07FAC400A2ABA5 /* bias_softmax.dat in Resources */,
 				2E4D17A71D07DAF200A2ABA5 /* weights_mixed_5_tower_2_conv.dat in Resources */,
 				2E4D17AE1D07DAF200A2ABA5 /* weights_mixed_6_tower_1_conv_3.dat in Resources */,
 				2E4D17401D07DAF200A2ABA5 /* bias_mixed_4_tower_conv_1.dat in Resources */,
@@ -943,6 +942,7 @@
 				2E4D17591D07DAF200A2ABA5 /* bias_mixed_7_tower_1_conv_2.dat in Resources */,
 				2E4D172F1D07DAF200A2ABA5 /* bias_mixed_2_tower_1_conv_1.dat in Resources */,
 				2E4D17911D07DAF200A2ABA5 /* weights_mixed_2_tower_conv_1.dat in Resources */,
+				32FE34751E61699400E31A91 /* bias_final_training_ops.dat in Resources */,
 				2E4D179F1D07DAF200A2ABA5 /* weights_mixed_4_tower_conv_2.dat in Resources */,
 				2E4D17921D07DAF200A2ABA5 /* weights_mixed_2_tower_conv.dat in Resources */,
 				2E4D17471D07DAF200A2ABA5 /* bias_mixed_5_tower_1_conv_4.dat in Resources */,
