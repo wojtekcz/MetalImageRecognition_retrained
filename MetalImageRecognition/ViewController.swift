@@ -233,6 +233,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
      */
     func runNetwork(){
         
+        let startTime = NSDate()
         // to deliver optimal performance we leave some resources used in MPSCNN to be released at next call of autoreleasepool,
         // so the user can decide the appropriate time to release this
         autoreleasepool{
@@ -251,7 +252,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             predictLabel.text = label
             predictLabel.isHidden = false
         }
-        
+        let runTime = -startTime.timeIntervalSinceNow
+        NSLog("runTime = %.2f sec", runTime)
     }
     
 }
