@@ -2,7 +2,9 @@ I've integrated *Old_Polish_Cars_v4* network into [Apple's sample](https://devel
 
 ![](images/iphone6_spacegrey_landscape.png)
 
-# Metal Image Recognition: Performing Image Recognition with Inception_v3 Network using Metal Performance Shaders Convolutional Neural Network routines
+
+
+## Metal Image Recognition: Performing Image Recognition with Inception_v3 Network using Metal Performance Shaders Convolutional Neural Network routines
 
 This sample demonstrates how to perform runtime inference for image recognition using a Convolutional Neural Network (CNN) built with Metal Performance Shaders. This sample is a port of the TensorFlow-trained Inception_v3 network, which was trained offline using the ImageNet dataset. The CNN creates, encodes, and submits different layers to the GPU. It then performs image recognition using trained parameters (weights and biases) that have been acquired and saved from the pre-trained network.
 
