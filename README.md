@@ -1,4 +1,4 @@
-I've integrated *Old_Polish_Cars_v4* network into [Apple's sample](https://developer.apple.com/library/prerelease/content/samplecode/MetalImageRecognition/Introduction/Intro.html) for image recognition using metal performance shaders. 
+I've integrated *Old_Polish_Cars_v4* network with [Apple's sample](https://developer.apple.com/library/prerelease/content/samplecode/MetalImageRecognition/Introduction/Intro.html) for image recognition using metal performance shaders. 
 
 ![](images/iphone6_spacegrey_landscape.png)
 
